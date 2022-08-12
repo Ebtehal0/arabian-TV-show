@@ -1,42 +1,11 @@
-/******************************************************************
-  Theme Name: Anime
-  Description: Anime video tamplate
-  Author: Colorib
-  Author URI: https://colorib.com/
-  Version: 1.0
-  Created: Colorib
-******************************************************************/
 
-/*------------------------------------------------------------------
-[Table of contents]
-
-1.  Template default CSS
-	1.1	Variables
-	1.2	Mixins
-	1.3	Flexbox
-	1.4	Reset
-2.  Helper Css
-3.  Header Section
-4.  Hero Section
-5.  Banner Section
-6.  Product Section
-7.  Intagram Section
-8.  Latest Section
-9.  Contact
-10.  Footer Style
--------------------------------------------------------------------*/
-
-/*----------------------------------------*/
-
-/* Template default CSS
-/*----------------------------------------*/
 
 html,
 body {
 	height: 100%;
 	font-family: "Mulish", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: #0b0c2a;
+	background: #242639;
 }
 
 h1,
@@ -134,7 +103,7 @@ ol {
 	top: -6px;
 	height: 32px;
 	width: 4px;
-	background: #e53637;
+	background: #E8AA42;
 	content: "";
 }
 
@@ -183,7 +152,7 @@ ol {
 .site-btn {
 	font-size: 13px;
 	color: #ffffff;
-	background: #e53637;
+	background: #E8AA42;
 	font-weight: 700;
 	border: none;
 	border-radius: 2px;
@@ -222,7 +191,7 @@ ol {
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid #E8AA42;
 		border-left-color: transparent;
 	}
 	50% {
@@ -234,7 +203,7 @@ ol {
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid #E8AA42;
 		border-left-color: transparent;
 	}
 }
@@ -350,7 +319,7 @@ ol {
 }
 
 .header__menu ul li.active a {
-	background: #e53637;
+	background: #E8AA42;
 	color: #ffffff;
 }
 
@@ -457,13 +426,15 @@ ol {
 
 .hero__text .label {
 	font-size: 13px;
-	color: #e53637;
-	background: #ffffff;
+	color: #ffffff;
+	font-weight: 800;
+	background: #D61C4E;
 	padding: 5px 14px 3px;
 	display: inline-block;
 	position: relative;
 	top: -100px;
 	opacity: 0;
+	
 	-webkit-transition: all, 0.2s;
 	-o-transition: all, 0.2s;
 	transition: all, 0.2s;
@@ -509,7 +480,7 @@ ol {
 .hero__text a span {
 	font-size: 13px;
 	color: #ffffff;
-	background: #e53637;
+	background: #E8AA42;
 	display: inline-block;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -517,16 +488,10 @@ ol {
 	padding: 14px 20px;
 	border-radius: 4px 0 0 4px;
 	margin-right: 1px;
+	
 }
 
-.hero__text a i {
-	font-size: 20px;
-	display: inline-block;
-	background: #e53637;
-	padding: 11px 5px 16px 8px;
-	color: #ffffff;
-	border-radius: 0 4px 4px 0;
-}
+
 
 .hero__slider.owl-carousel .owl-item.active .hero__text .label {
 	top: 0;
@@ -573,10 +538,7 @@ ol {
 }
 
 .hero__slider.owl-carousel .owl-nav button {
-	font-size: 36px;
-	height: 66px;
-	width: 66px;
-	background: #0b0c2a;
+	font-size: 56px;
 	line-height: 66px;
 	text-align: center;
 	color: #ffffff;
@@ -584,29 +546,17 @@ ol {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 	position: relative;
-	z-index: 1;
 	position: absolute;
-	left: -33px;
+	left: -73px;
 	top: 50%;
 	margin-top: -47px;
+	background-color: #7878785a;
+	border-radius: 55px;
 }
 
 .hero__slider.owl-carousel .owl-nav button.owl-next {
 	left: auto;
-	right: -33px;
-}
-
-.hero__slider.owl-carousel .owl-nav button:after {
-	position: absolute;
-	top: 6px;
-	left: 0;
-	right: 0;
-	height: 54px;
-	width: 54px;
-	background: rgba(255, 255, 255, 0.1);
-	content: "";
-	z-index: -1;
-	margin: 0 auto;
+	right: -73px;
 }
 
 .hero__slider.owl-carousel .owl-nav button span {
@@ -614,7 +564,7 @@ ol {
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	display: block;
-	z-index: 1;
+
 }
 
 /*---------------------
@@ -660,7 +610,7 @@ ol {
 .product__item__pic .ep {
 	font-size: 13px;
 	color: #ffffff;
-	background: #e53637;
+	background: #D61C4E;
 	display: inline-block;
 	padding: 2px 12px;
 	border-radius: 4px;
@@ -734,7 +684,7 @@ ol {
 	top: -6px;
 	height: 32px;
 	width: 4px;
-	background: #e53637;
+	background: #E8AA42;
 	content: "";
 }
 
@@ -776,7 +726,7 @@ ol {
 .product__sidebar__view__item .ep {
 	font-size: 13px;
 	color: #ffffff;
-	background: #e53637;
+	background: #D61C4E;
 	display: inline-block;
 	padding: 2px 12px;
 	border-radius: 4px;
@@ -1064,7 +1014,7 @@ ol {
 .anime__details__btn .follow-btn {
 	font-size: 13px;
 	color: #ffffff;
-	background: #e53637;
+	background: #E8AA42;
 	display: inline-block;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -1077,7 +1027,7 @@ ol {
 .anime__details__btn .watch-btn span {
 	font-size: 13px;
 	color: #ffffff;
-	background: #e53637;
+	background: #E8AA42;
 	display: inline-block;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -1090,7 +1040,7 @@ ol {
 .anime__details__btn .watch-btn i {
 	font-size: 20px;
 	display: inline-block;
-	background: #e53637;
+	background: #E8AA42;
 	padding: 11px 5px 16px 8px;
 	color: #ffffff;
 	border-radius: 0 4px 4px 0;
@@ -1172,7 +1122,7 @@ ol {
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	background: #e53637;
+	background: #E8AA42;
 	border: none;
 	padding: 10px 15px;
 	border-radius: 2px;
@@ -1306,7 +1256,7 @@ ol {
 
 .breadcrumb__links a i {
 	margin-right: 5px;
-	color: #e53637;
+	color: #E8AA42;
 }
 
 .breadcrumb__links a:after {
@@ -1403,7 +1353,7 @@ ol {
 }
 
 .blog__item__text p span {
-	color: #e53637;
+	color: #E8AA42;
 	margin-right: 5px;
 }
 
@@ -1633,7 +1583,7 @@ ol {
 }
 
 .blog__details__comment__item__text a:hover {
-	background: #e53637;
+	background: #E8AA42;
 }
 
 .blog__details__form {
@@ -1823,7 +1773,7 @@ ol {
 }
 
 .login__register .primary-btn {
-	background: #e53637;
+	background: #E8AA42;
 	padding: 12px 42px;
 }
 
@@ -1906,7 +1856,7 @@ ol {
 }
 
 .signup .login__form h5 a {
-	color: #e53637;
+	color: #E8AA42;
 	font-weight: 700;
 }
 
@@ -1951,7 +1901,7 @@ ol {
 	color: #ffffff;
 	height: 50px;
 	width: 50px;
-	background: #e53637;
+	background: #E8AA42;
 	line-height: 50px;
 	text-align: center;
 	border-radius: 50%;
@@ -1992,7 +1942,7 @@ ol {
 }
 
 .footer__copyright__text a {
-	color: #e53637;
+	color: #E8AA42;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
